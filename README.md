@@ -7,11 +7,10 @@ Es asi que todos los procesos pueden descritos en estos terminos a medida que pu
 Es el metodo computacional del cual se derivan diversas alternativas para el llamado **entrenamiento**(proceso de optimizacion) de la mayor parte de los modelos que existen hoy dia. Fue creado por el renombrado cientifico Cauchy(1847) y refinado por otros mas adelante, pero se enuncia de la siguiente manera:
 
 #### Teorema 1: Descenso de Gradiente
-Dada una aplicacion/funcion $f$ diferenciable y convexa en un dominio $X$, se cumple que la sucesion $\left{ a_n \right}_n=0^\infnty$ definida como sucesion de Cauchy en el dominio $X$ converge al minimo de $f$.
-$a_{n+1} = a_n - \gamma \nabla f(a_n)$
+Dada una aplicacion/funcion $f$ diferenciable y convexa en un dominio $X$, se cumple que la sucesion $a_n$ definida como sucesion de Cauchy en el dominio $X$ converge al minimo de $f$.
+
+##### $a_{n+1} = a_n - \gamma \nabla f(a_n)$
 
 Basicamente aprovecha las propiedades de operadores matematicos para poder dar pasos hacia una solucion optimizada:
 
-![image](url)
-
-
+![image](https://raw.githubusercontent.com/Data-Driven-Science-py/Introduccion-a-Machine-Learning/main/src/image.webp)
