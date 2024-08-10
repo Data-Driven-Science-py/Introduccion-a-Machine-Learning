@@ -17,6 +17,6 @@ Basicamente aprovecha las propiedades de operadores matematicos para poder dar p
 
 # Funcion de costo
 Es una medida que determina una relacion entre dos conjuntos de datos cuya resultante deberia de minimizarse, particularmente util con el descenso de gradiente dado su naturaleza numerica. Un ejemplo ampliamente utilizado es el error medio cuadratico:
-### $\mathbb(E)[(\hat{O^t} - O^t)^2]$
+### $\mathbb{E}[(\hat{O}^t - O^t)^2]$
 
 
