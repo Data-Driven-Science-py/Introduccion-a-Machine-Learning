@@ -14,3 +14,9 @@ Dada una aplicacion/funcion $f$ diferenciable y convexa en un dominio $X$, se cu
 Basicamente aprovecha las propiedades de operadores matematicos para poder dar pasos hacia una solucion optimizada:
 
 ![image](https://raw.githubusercontent.com/Data-Driven-Science-py/Introduccion-a-Machine-Learning/main/src/image.webp)
+
+# Funcion de costo
+Es una medida que determina una relacion entre dos conjuntos de datos cuya resultante deberia de minimizarse, particularmente util con el descenso de gradiente dado su naturaleza numerica. Un ejemplo ampliamente utilizado es el error medio cuadratico:
+### $\mathbb(E)[(\hat{O^t} - O^t)^2]$
+
+
