@@ -9,7 +9,7 @@ Es el metodo computacional del cual se derivan diversas alternativas para el lla
 #### Teorema 1: Descenso de Gradiente
 Dada una aplicacion/funcion $f$ diferenciable y convexa en un dominio $X$, se cumple que la sucesion $a_n$ definida como sucesion de Cauchy en el dominio $X$ converge al minimo de $f$.
 
-##### $a_{n+1} = a_n - \gamma \nabla f(a_n)$
+### $a_{n+1} = a_n - \gamma \nabla f(a_n)$
 
 Basicamente aprovecha las propiedades de operadores matematicos para poder dar pasos hacia una solucion optimizada:
 
